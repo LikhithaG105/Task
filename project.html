@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+
+
+<head>
+ 
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Boxicons -->
+  <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
+
+  <!-- Fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <!-- Custom StyleSheet -->
+  <link rel="stylesheet" href="./styles.css" />
+  <title>Website </title>
+</head>
+
+<body>
+  <div class="promo">
+    <span></span>
+  </div>
+  <!-- HEADER -->
+  <header class="header">
+    <!-- NAVIGATION -->
+    <nav class="nav container">
+      <div class="navigation d-flex">
+        <div class="hamburger">
+          <i class="bx bx-menu"></i>
+        </div>
+        <div class="logo">
+          <h2>Codext</h2>
+        </div>
+
+        <div class="menu">
+          <div class="top">
+            <span class="close">close <i class="bx bx-x"></i></span>
+          </div>
+
+          <ul class="nav-list d-flex">
+            <li class="nav-item">
+              <a href="#Home" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">service</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">Pricing</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="icons d-flex">
+          <div><i class="bx bx-search"></i></div>
+          <div><i class="bx bx-user"></i></div>
+          <div><i class="bx bx-heart"></i></div>
+          <div>
+            <i class="bx bx-shopping-bag"></i>
+            <span class="align-center">0</span>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <div class="hero">
+      <div class="hero-content d-flex container">
+        <div class="left">
+          <span class="subtitle"></span>
+          <h1 class="title">
+            Codext one of <br>
+            <span class="color">the best system<br />
+              in SAAS</span> 
+        
+          </h1>
+
+          <h4>Lorem ipsum dolor sit amet consectetur adipiscing <br>elit. A nulla etium
+        turpis quam diam et.<br>Arcu nisi, sed aenean sit nisi.</h4>
+          <a href="#" class="btn" onclick="shop()">Try A Live Demo</a>
+        </div>
+
+        <div class="right">
+          <!--<img src="./img/bg.png" alt="" />-->
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!--  -->
+
+
+
+
+  <!-- Shop By Category -->
+  <section class="section">
+    <div class="title">
+      <h1>It's helpful for operating system</h1>
+      
+    </div>
+    <div>
+        <center><ol><b>Ultra fast & Secure</b></ol>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+    vitae velit proin justo, elementum siln morbi</p></center><br>
+    </div>
+    <div>
+    <center><ol><b>Allows customization</b></ol>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+      vitae velit proin justo, elementum siln morbi</p></center><br>
+      </div>
+      <div>
+      <center><ol><b>Smart contract</b></ol>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+      vitae velit proin justo, elementum siln morbi</p></center><br>
+    </div>
+    
+      <div class="item item-3">
+        <img src="./images/cat1.jpg" alt="" />
+      </div>
+    </div>
+  </section>
+
+
+          <!-- New Arrivals -->
+  <section class="section">
+    <div class="title">
+      <h1>We provide best Feature<br>for customer</h1>
+    </div>
+    <div class="product-center container">
+      <div class="product">
+        <div class="img-cover">
+          <img src="./images/product1.jpg" alt="" />
+        </div>
+        <p><b>Clean Code</b></p>
+        <p>Lorem ipsum dolor sit amet ecte<br>adipiscing elit.</p>
+        
+        
+
+      </div>
+
+      <div class="product">
+        <div class="img-cover">
+          <img src="./images/product2.jpg" alt="" />
+        </div>
+        <p><b>Data Analytic</b></p>
+        <p>Lorem ipsum dolor sit amet ecte<br>adipiscing elit.</p>
+        
+      </div>
+
+      <div class="product">
+        <div class="img-cover">
+          <img src="./images/product3.jpg" alt="" />
+        </div>
+        <p><b>Full Secure</b></p>
+        <p>Lorem ipsum dolor sit amet ecte<br>adipiscing elit.</p>
+
+      </div>
+      <div class="product">
+        <div class="img-cover">
+          <img src="./images/product4.jpg" alt="" />
+        </div>
+        <p><b>24/7 Support</b></p>
+        <p>Lorem ipsum dolor sit amet ecte<br>adipiscing elit.</p>
+      </div>
+    </div>
+  </section>
+       
+              <script>
+               var form=document.getElementById('form')
+              form.addEventListener('',function(event){
+              event.preventDefault()
+                var name= documet.getElementById('name').value
+               console.log(name)
+              var email=document.getElementById('email').value
+              console.log(email)
+               }
+               </script>
+              
+              
+              
+              <script>
+               function validateform(){
+               let x=document.forms["myform"]["fName"].value;
+               if(x=="")
+               {
+               alert("Name must be filled")
+               return false;
+               }
+             }
+             
+               </script>
+            
+                  
+ 
+         </form>
+  
+
+    </div>
+
+</section>
+
+<!-- order section ends -->
+
+<!-- footer section  -->
+
+<section class="footer">
+
+    <div class="share">
+        <a href="#" class="btn">facebook</a>
+        <a href="#" class="btn">twitter</a>
+        <a href="#" class="btn">instagram</a>
+        <a href="#" class="btn">pinterest</a>
+        <a href="#" class="btn">linkedin</a>
+    </div>
+
+    <h1 class="credit"> created by <span> Gudimetla S V R K Yathi Raj Kaustub </span> | all rights reserved! </h1>
+
+</section>
+
+
+  <!-- Footer -->
+  <footer id="footer" class="section footer">
+    <div class="container">
+      <div class="footer-container">
+        <div class="footer-center">
+          <h3>EXTRAS</h3>
+          <a href="#">Brands</a>
+          <a href="#">Gift Certificates</a>
+          <a href="#">Affiliate</a>
+          <a href="#">Specials</a>
+          <a href="#">Site Map</a>
+        </div>
+        <div class="footer-center">
+          <h3>INFORMATION</h3>
+          <a href="#">About Us</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms & Conditions</a>
+          <a href="#">Contact Us</a>
+          <a href="#">Site Map</a>
+        </div>
+        <div class="footer-center">
+          <h3>MY ACCOUNT</h3>
+          <a href="#">My Account</a>
+          <a href="#">Order History</a>
+          <a href="#">Wish List</a>
+          <a href="#">blogletter</a>
+          <a href="#">Returns</a>
+        </div>
+        <div class="footer-center">
+          <h3>CONTACT US</h3>
+          <div>
+            <span>
+              <i class="fas fa-map-marker-alt"></i>
+            </span>
+            42 Dream House, Dreammy street, 7131 Dreamville, India
+          </div>
+          <div>
+            <span>
+              <i class="far fa-envelope"></i>
+            </span>
+            company@gmail.com
+          </div>
+          <div>
+            <span>
+              <i class="fas fa-phone"></i>
+            </span>
+            9884567145
+          </div>
+          <div>
+            <span>
+              <i class="far fa-paper-plane"></i>
+            </span>
+            Dream City, India
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </footer>
+ 
+
+  <!-- Script -->
+  <script src="./index.js"></script>
+</body>
+</html>
